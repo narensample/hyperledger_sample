@@ -97,6 +97,10 @@ Install Fabric
 curl -sSL http://bit.ly/2ysbOFE | bash -s 1.1.0
 ```
 
+Check by running below command
+```
+docker images 
+```
 Setting Application
 
 git clone https://github.com/narensample/hyperledger_sample.git && cd hyperledger_sample && cd sample
