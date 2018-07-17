@@ -28,11 +28,17 @@ docker-compose
   ```
      Download the nvm install script via cURL:
         curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
-
+  ```
+     restart bashrc   
+  ```  
+     source ~/.bashrc
+  ```
      Ensure that nvm was installed correctly with nvm --version, which should return the version of nvm installed.
      Install the version of Node.js 8.11.2
-     Install the specific version with nvm install v8.11.2
- ```
+     Install the specific version with 
+  ```
+     nvm install v8.11.2
+  ```
 2) Install docker
  ```
     sudo apt-get update
