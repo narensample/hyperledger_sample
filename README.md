@@ -94,7 +94,7 @@ docker-compose --version
 ```
 Install Fabric 
 ```
-curl -sSL http://bit.ly/2ysbOFE | bash -s 1.2.0
+curl -sSL http://bit.ly/2ysbOFE | bash -s 1.1.0
 ```
 
 Setting Application
