@@ -1,13 +1,16 @@
-# Hyperledger Fabric Sample Project
+# Starter kit - Hyperledger Fabric Sample Project
  A basic end to end sample of Fabric 
  This Sample application doesnt have UI
  It will make connection and interaction with Fabric, which running on docker containers 
 
 ## Getting Started
-
+These instructions will get you a copy of the sample project up and running on your local machine for development and testing.
 ### Prerequisites
-
- Windows:
+Node js through NVM(our fabric-sdk is in nodejs )
+docker
+docker-compose
+### Installation Steps
+## Case 1 : Windows:
  ```
  1) Install Nodejs from https://nodejs.org/en/
  2) Install docker from download.docker.com
@@ -16,9 +19,9 @@
      https://docs.docker.com/compose/install/#install-compose
  
  ```
- I would recommend  linux while dealing with docker
+ I would like to recommend  "linux" while dealing with docker
 
- Linux:
+ ## Linux:
  1) Install NVM
   ```
      Download the nvm install script via cURL:
@@ -49,19 +52,54 @@
    
     sudo apt-get install docker-ce
     Verify that Docker CE is installed correctly by running the hello-world image.
-
+```
+    ``` 
     sudo docker run hello-world
-
+    ```
     sudo groupadd docker
+    ```
+    ```
     sudo usermod -aG docker $USER
+    ```
+    ```
     docker run hello-world
- ```
+    ```
+ 
 3) Install docker compose
 
 ```
 sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+```
+```
 sudo chmod +x /usr/local/bin/docker-compose
+```
+```
 docker-compose --version
 
 ```
+Setting Application
 
+git clone https://github.com/narensample/hyperledger_sample.git && cd hyperledger_sample && cd sample
+
+
+ ```
+npm install
+ ```
+Run below commands on same terminal
+  ```
+  node enrollAdmin.js
+  ```
+
+  ```
+  node registerUser.js
+  ```
+  
+   ```
+  node invoke.js
+  ```
+  
+   ```
+  node query.js
+  ```
+
+Thank you!
