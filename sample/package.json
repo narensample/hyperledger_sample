@@ -15,9 +15,6 @@
     "license": "Apache-2.0",
     "keywords": [
         "Hyperledger",
-        "Fabric",
-        "Car",
-        "Sample",
-        "Application"
+        "Fabric"
     ]
 }
