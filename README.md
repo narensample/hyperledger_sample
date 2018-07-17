@@ -141,4 +141,4 @@ Create User identity
   node query.js
   ```
 
-Thank you!
+Thank you for your patience.
