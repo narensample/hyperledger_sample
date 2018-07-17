@@ -53,6 +53,7 @@ docker-compose
     sudo apt-get install docker-ce
     Verify that Docker CE is installed correctly by running the hello-world image.
 ```
+sldlsn
     ``` 
     sudo docker run hello-world
     ```
