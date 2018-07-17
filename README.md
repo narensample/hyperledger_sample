@@ -103,14 +103,14 @@ docker images
 ```
 Setting Application
 
-git clone https://github.com/narensample/hyperledger_sample.git && cd hyperledger_sample 
+git clone https://github.com/narensample/hyperledger_sample.git && cd hyperledger_sample && cd sample 
 
-Start Fabric by below command
+Start Fabric by below command in "sample" folder 
 
 ```
-./start.sh
+./startFabric.sh
 ```
-cd .. && cd sample 
+ Next install NodeJS modules 
  ```
 npm install
  ```
