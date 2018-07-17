@@ -28,9 +28,10 @@ docker-compose
   ```
      Download the nvm install script via cURL:
         curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
-  ```
-     restart bashrc   
+  ``` 
+     
   ```  
+  Restart bashrc
      source ~/.bashrc
   ```
      Ensure that nvm was installed correctly with nvm --version, which should return the version of nvm installed.
