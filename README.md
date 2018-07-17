@@ -76,7 +76,7 @@ Verify that Docker CE is installed correctly by running the hello-world image.
 
     sudo usermod -aG docker $USER
     
-    Logout and Login in order to refresh 
+    !! Logout and Login in order to refresh  !!
 
     docker run hello-world
  ```
@@ -110,6 +110,15 @@ Start Fabric by below command in "sample" folder
 ```
 ./startFabric.sh
 ```
+
+Install Python 
+```
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt-get update
+sudo apt-get install python3.6
+```
+!! logout and login in order to refresh !!
+
  Next install NodeJS modules 
  ```
 npm install
