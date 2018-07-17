@@ -92,6 +92,11 @@ sudo chmod +x /usr/local/bin/docker-compose
 ```
 docker-compose --version
 ```
+Install Fabric 
+```
+curl -sSL http://bit.ly/2ysbOFE | bash -s 1.2.0
+```
+
 Setting Application
 
 git clone https://github.com/narensample/hyperledger_sample.git && cd hyperledger_sample && cd sample
