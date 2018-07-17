@@ -1,5 +1,7 @@
 # Starter kit - Hyperledger Fabric Sample Project
  A basic end to end sample of Fabric 
+ Set data to setter function
+ Get data from peers using getter function
  This Sample application doesnt have UI
  It will make connection and interaction with Fabric, which running on docker containers 
 
@@ -21,7 +23,7 @@ docker-compose
  ```
  I would like to recommend  "linux" while dealing with docker
 
- ## Linux:
+ ## Case 2: Linux:
  1) Install NVM
   ```
      Download the nvm install script via cURL:
@@ -60,7 +62,9 @@ docker-compose
 Verify that Docker CE is installed correctly by running the hello-world image.
  ``` 
     sudo docker run hello-world
-
+ ```
+ Add docker to sudo group
+ ```
     sudo groupadd docker
 
     sudo usermod -aG docker $USER
@@ -88,18 +92,19 @@ git clone https://github.com/narensample/hyperledger_sample.git && cd hyperledge
 npm install
  ```
 Run below commands on same terminal
+Create Admin identity
   ```
   node enrollAdmin.js
   ```
-
+Create User identity
   ```
   node registerUser.js
   ```
-  
+  Add data to setter function
    ```
   node invoke.js
   ```
-  
+  Retrive data from peers by getter function
    ```
   node query.js
   ```
