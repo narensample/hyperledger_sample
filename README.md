@@ -55,22 +55,18 @@ docker-compose
     sudo apt-get update
  ```
  ```
-    sudo apt-get install docker-ce
-    Verify that Docker CE is installed correctly by running the hello-world image.
+    sudo apt-get install docker-ce  
  ```
-docker commands
-    ``` 
+Verify that Docker CE is installed correctly by running the hello-world image.
+ ``` 
     sudo docker run hello-world
-    ```
-    ```
+
     sudo groupadd docker
-    ```
-    ```
+
     sudo usermod -aG docker $USER
-    ```
-    ```
+
     docker run hello-world
-    ```
+ ```
  
 3) Install docker compose
 
