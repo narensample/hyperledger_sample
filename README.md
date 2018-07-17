@@ -75,6 +75,8 @@ Verify that Docker CE is installed correctly by running the hello-world image.
     sudo groupadd docker
 
     sudo usermod -aG docker $USER
+    
+    Logout and Login in order to refresh 
 
     docker run hello-world
  ```
